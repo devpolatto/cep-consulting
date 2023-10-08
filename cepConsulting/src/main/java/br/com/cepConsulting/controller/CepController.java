@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class CepController {
      @GetMapping("/consulta-cep")
-     public String consultaCep(){
+     public String consultaCepaaaa22(){
           return "Cep Angelo";
      }
      
      @GetMapping("/consulta-novo-cep")
-     public String consultaCep(){
+     public String consultaCepaaaa22(){
           return "Cep Zandra";
      }
      
