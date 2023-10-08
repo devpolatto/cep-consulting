@@ -14,4 +14,9 @@ public class CepController {
           return "Cep Angelo";
      }
      
+     @GetMapping("/consulta-novo-cep")
+     public String consultaCep(){
+          return "Cep Zandra";
+     }
+     
 }
